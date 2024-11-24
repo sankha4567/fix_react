@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "clean": "rm -rf node_modules .parcel-cache && npm install"
+    "clean": "rm -rf dist node_modules .parcel-cache && npm install"
   },
   "keywords": [],
   "author": "",
