@@ -4,18 +4,19 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "clean": "rm -rf node_modules .parcel-cache && npm install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.13.0",
+    "parcel": "^2.8.3",
+    "react-dom": "^18.2.0",
     "process": "^0.11.10"
   },
   "dependencies": {
-    "@types/react-router-dom": "^5.3.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.0.1" }
+    "react": "^18.2.0",
+    "react-router-dom": "^6.10.0"
+  }
 }
